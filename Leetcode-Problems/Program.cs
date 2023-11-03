@@ -1,6 +1,6 @@
 ﻿using Leetcode_Problems;
 
-var cls = new Palindrome_Number();
-Console.Write(cls.IsPalindrome(121));
-Console.Write(cls.IsPalindrome(-121));
-Console.Write(cls.IsPalindrome(10));
+var cls = new Roman_to_Integer();
+Console.WriteLine(cls.RomanToInt("III"));
+Console.WriteLine(cls.RomanToInt("LVIII"));
+Console.WriteLine(cls.RomanToInt("MCMXCIV"));
