@@ -1,6 +1,5 @@
 ﻿using Leetcode_Problems;
 
-var cls = new Roman_to_Integer();
-Console.WriteLine(cls.RomanToInt("III"));
-Console.WriteLine(cls.RomanToInt("LVIII"));
-Console.WriteLine(cls.RomanToInt("MCMXCIV"));
+var cls = new Longest_Common_Prefix();
+Console.WriteLine(cls.Run(new string[] { "flower", "flow", "flight" }));
+Console.WriteLine(cls.Run(new string[] { "dog", "racecar", "car" }));
